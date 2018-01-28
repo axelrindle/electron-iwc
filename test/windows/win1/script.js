@@ -6,7 +6,7 @@ const iwc = remote.getGlobal('Iwc');
 const button = document.getElementById('send');
 const response = document.getElementById('response');
 
-iwc.on('hello-2', _event => {
+iwc.on('hello-2', _data => {
   response.innerHTML += 'Hello from Window 2!<br>';
 });
 
