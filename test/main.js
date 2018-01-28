@@ -19,7 +19,6 @@ const createWindow = (name, options) => {
     protocol: 'file:',
     slashes: true
   });
-  console.log(file);
   win.loadURL(file);
 
   windows[name] = win;
